@@ -6,22 +6,34 @@
 main:
   - name: Home
     url: '#about'
+    weight: 1
+  - name: Research
+    url: '#research'
     weight: 10
-  - name: Posts
-    url: '#posts'
-    weight: 20
-  - name: Projects
-    url: '#projects'
-    weight: 30
-  - name: Talks
-    url: '#talks'
-    weight: 40
+  - name: Grants&Awards
+    url: '#grants'
+    weight: 15
   - name: Publications
-    url: '#featured'
-    weight: 50
+    url: '#publications'
+    weight: 25
+  - name: Teaching
+    url: '#teaching'
+    weight: 30
+  - name: Supervision
+    url: '#supervision'
+    weight: 35
+  - name: Services
+    url: '#services'
+    weight: 40
+  - name: Resources
+    url: '#resources'
+    weight: 45
   - name: Contact
     url: '#contact'
-    weight: 60
+    weight: 130
+  - name: ECCO
+    url: 'https://vuw-ecco.netlify.app/'
+    weight: 999
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
